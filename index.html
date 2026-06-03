@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter For My Bebe ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-heart">❤️</div>
+        <p>Preparing something special...</p>
+    </div>
+
+    <!-- FLOATING ELEMENTS -->
+    <div id="petals"></div>
+    <div id="hearts"></div>
+
+    <!-- LANDING PAGE -->
+    <section id="landing">
+
+        <div class="hero">
+
+            <h1>A Letter For My Bebe ❤️</h1>
+
+            <p class="subtitle">
+                Made with love by Fatah
+            </p>
+
+            <div class="envelope-wrapper">
+
+                <div id="envelope" class="envelope">
+
+                    <div class="envelope-top"></div>
+
+                    <div class="envelope-letter">
+
+                        <div class="mini-heart">❤️</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button id="openBtn" class="primary-btn">
+                Open Letter 💌
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- LETTER SECTION -->
+    <section id="letterSection" class="hidden">
+
+        <div class="paper">
+
+            <div class="paper-header">
+
+                <h2>Apology Letter</h2>
+
+                <p id="currentDate"></p>
+
+            </div>
+
+            <h3>
+                Dearest Aisyah ❤️
+            </h3>
+
+            <div id="typingContainer">
+                <span id="typedText"></span>
+                <span class="cursor">|</span>
+            </div>
+
+        </div>
+
+        <!-- MUSIC -->
+        <div class="music-box">
+
+            <h4>🎵 Our Music</h4>
+
+            <audio id="bgMusic">
+                <source src="music.mp3" type="audio/mpeg">
+            </audio>
+
+            <button id="musicBtn">
+                Play Music 🎶
+            </button>
+
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery-section">
+
+            <h2>Our Memories 📸</h2>
+
+            <div class="gallery">
+
+                <img src="https://picsum.photos/400/500?random=1">
+
+                <img src="https://picsum.photos/400/500?random=2">
+
+                <img src="https://picsum.photos/400/500?random=3">
+
+                <img src="https://picsum.photos/400/500?random=4">
+
+            </div>
+
+        </div>
+
+        <!-- APOLOGY BUTTON -->
+
+        <div class="sorry-section">
+
+            <button id="sorryBtn" class="primary-btn">
+                I'm Truly Sorry ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- POPUP -->
+
+    <div id="popup" class="popup hidden">
+
+        <div class="popup-content">
+
+            <h2>For My Aisyah ❤️</h2>
+
+            <p>
+                Terima kasih sudah membaca surat ini sampai akhir.
+                Aku mungkin belum sempurna,
+                tapi aku akan selalu berusaha menjadi lebih baik untukmu.
+            </p>
+
+            <button id="closePopup">
+                I Love You ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
